@@ -1,0 +1,24 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Design"
+		},
+		{
+			"path": "..\\..\\images"
+		}
+	],
+    "settings": {
+        "debug.allowBreakpointsEverywhere": true,
+        "files.autoGuessEncoding": true,
+        "files.exclude": {
+            "**/.vscode": true,
+            "compile_commands.json": true,
+            "*.hrccproj": true,
+            "*.sln": true,
+            "*.suo": true
+        }
+    }
+}

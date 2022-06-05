@@ -1,0 +1,357 @@
+header {
+    width: 100vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    border-radius: 0px;
+}
+
+.main {
+    width: 90vw;
+    left: 80px;
+    top: 150px;
+    border-radius: 0px;
+}
+
+.logo {
+    height: 49px;
+    width: 166px;
+    left: 80px;
+    top: 65px;
+    border-radius: 0px;
+}
+
+nav {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40vw;
+    flex-wrap: wrap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-link li {
+    height: 19px;
+    width: 6vw;
+    margin-left: 5vw;
+    top: 99px;
+    border-radius: nullpx;
+    list-style: none;
+    align-self: center;
+}
+
+.header-link li a {
+    text-decoration: none;
+    color: #07043B;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-link li a:hover {
+    background-color: rgba(29, 194, 194, 0.017);
+    border: 1px solid rgba(132, 118, 254, 0.7);
+}
+
+.card-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    border-radius: 0px;
+}
+
+.main-img-1 {
+    width: 50vw;
+    height: 60vh;
+}
+
+.card-1 p {
+    width: 46vw;
+    left: 80px;
+    font-family: 'Open Sans', sans-serif;
+    ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    letter-spacing: 0.53125px;
+}
+
+.card-1 h2 {
+    width: 46vw;
+    border-radius: nullpx;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+}
+
+.card-1 input {
+    height: 49.74683380126953px;
+    width: 320px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3.125px;
+}
+
+.card-1 button {
+    height: 49.74683380126953px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3.125px;
+    background: #2F65F8;
+}
+
+.card-2 {
+    width: 100vw;
+    top: 838px;
+    display: flex;
+    background: #F2F2F2;
+    background-image: url("../images/Rectangle.png");
+    background-size: cover;
+    padding: 13vh 7vw;
+}
+
+.main-img-2 {
+    height: 56vh;
+    width: 40vw;
+    left: 818px;
+    top: 202px;
+    border-radius: 0px;
+}
+
+.card-2-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2-left h3 {
+    width: 648px;
+    left: 80px;
+    top: 178px;
+    border-radius: nullpx;
+}
+
+.card-2_p-base {
+    height: 48px;
+    width: 529px;
+    left: 80px;
+    top: 263px;
+    border-radius: nullpx;
+}
+
+.small-card {
+    width: 30vw;
+    left: 80px;
+    top: 462px;
+    border-radius: 0px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.small-card:first-child {
+    width: 289px;
+    border-radius: nullpx;
+}
+
+.Small-Description {
+    display: flex;
+}
+
+.Small-Description-text {
+    padding-left: 1vw;
+}
+
+.product {
+    width: 100vw;
+    left: 0px;
+    top: 1622px;
+    border-radius: 0px;
+    display: flex;
+    padding: 9vh 3vw;
+    background: #575988;
+}
+
+.product h2 {
+    width: 23vw;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.product p {
+    width: 28vw;
+    left: 0px;
+    top: 65px;
+    border-radius: nullpx;
+}
+
+.product input {
+    width: 28vw;
+    left: 840px;
+    top: 1734px;
+    border-radius: 0px;
+}
+
+.product-form {
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.product button {
+    width: 10vw;
+    height: 5vh;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2F65F8;
+    margin-top: 3vh;
+}
+
+footer {
+    width: 100vw;
+    padding: 3vw;
+    box-sizing: border-box;
+    background: #07043B;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info img {
+    padding-bottom: 3vh;
+}
+
+.footer-info {
+    width: 15vw;
+    left: 80px;
+    top: 2036px;
+    border-radius: 0px;
+}
+
+.footer-link {
+    width: 40vw;
+    padding-left: 8vw;
+    padding-top: 10vh;
+}
+
+.footer-link ul {
+    display: grid;
+    grid-template-columns: repeat(2, 10vw);
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media (max-width:780px) {
+    header {
+        height: 24px;
+        width: 327px;
+    }
+    .logo {
+        height: 29px;
+        width: 56px;
+        margin-left: 10vw;
+    }
+    .header-link {
+        font-size: 12px;
+    }
+    .card-1 {
+        padding-top: 10vh;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-1 form {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1 button {
+        width: 320px;
+        margin: 2vh 0;
+    }
+    .card-1 p {
+        width: 320px;
+    }
+    .card-1 h2 {
+        width: 320px;
+    }
+    .card-2 {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .card-2-left h3 {
+        text-align: center;
+    }
+    .small-card {
+        width: 40vw;
+        margin-left: 30vw;
+    }
+    .product {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        left: 0px;
+        top: 1806px;
+        border-radius: 0px;
+    }
+    .product h2 {
+        width: 40vw;
+        border-radius: nullpx;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .product button {
+        width: 40vw;
+        margin-right: 28vw;
+    }
+    .product input {
+        width: 40vw;
+        margin-right: 28vw;
+    }
+    footer {
+        width: 100vw;
+        left: 0px;
+        top: 2151px;
+        border-radius: 0px;
+        flex-direction: column;
+    }
+    .footer-link ul {
+        margin-top: 2vh;
+        grid-template-columns: repeat(1, 10vw);
+    }
+    .footer-info {
+        width: 40vw;
+        margin-left: 13vw;
+    }
+    .footer-icon {
+        padding-left: 40vw;
+    }
+    .main-img-2 {
+        margin-left: 30vw;
+    }
+}
